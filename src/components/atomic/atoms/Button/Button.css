@@ -1,0 +1,24 @@
+:root {
+    --medium-purple: #9879e9;
+    --white: #fff;
+    --white-liliac: #e8e8e8;
+}
+
+.button {
+    border: 1px solid transparent;
+    padding: 10px 85px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 5px var(--white-liliac);
+}
+
+.button.primary {
+    background: var(--medium-purple);
+    color: var(--white);
+}
+
+.button.secondary {
+    background: transparent;
+    color: var(--medium-purple);
+    border: 1px solid var(--medium-purple);
+}
+

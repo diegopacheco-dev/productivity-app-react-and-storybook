@@ -1,5 +1,6 @@
 import React from 'react'
-import 'prop-types'
+import PropTypes from 'prop-types'
+import './Button.css'
 
 const Button = ({ type, children}) => {
     return (
@@ -13,7 +14,7 @@ const Button = ({ type, children}) => {
 
 Button.propTypes = {
     children: PropTypes.node.isRequired,
-    type: PropTypes.oneOf[("primary" ,"secondary")]
+    type: PropTypes.oneOf(["primary" ,"secondary"])
 }
 
 export default Button
