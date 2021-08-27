@@ -14,6 +14,6 @@ export default Heading
 
 Heading.propTypes = {
     children : PropTypes.node.isRequired,
-    color: PropTypes.oneOf(['primary']),
+    color: PropTypes.oneOf(['primary', 'default']),
     size: PropTypes.oneOf(['xs', 'sm', 'md'])
 }

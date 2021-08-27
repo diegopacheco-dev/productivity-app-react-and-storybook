@@ -8,7 +8,10 @@ export default {
 
 export const Default = () => <Heading children="Title"/>
 
-export const Primary = () => <Heading children="Title" color="primary"/>
+export const ColorPrimary = () => <Heading children="Title" color="primary"/>
+
+
+export const Medium = () => <Heading children="Title" color="primary" size="md"/>
 
 export const Small = () => <Heading children="Title" color="primary" size="sm"/>
 
