@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './components/atomic/atoms/Button/Button'
+import Button from './components/atoms/Button/Button'
 
 const App = () => {
   return (
